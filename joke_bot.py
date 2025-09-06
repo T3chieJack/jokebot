@@ -13,7 +13,7 @@ def get_joke():
 
 def post_discord(joke):
     payload = {
-        "username": "Daily Dad Joke",
+        "username": "Punchline",
         "embeds": [{
             "title": "😂 Here’s your daily joke",
             "description": f"> {joke}",
