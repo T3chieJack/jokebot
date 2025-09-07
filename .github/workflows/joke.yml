@@ -2,8 +2,9 @@
 name: Daily Discord Joke
 on:
   schedule:
-    - cron: "30 9 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch: {}
+
     # manual trigger
 jobs:
   send-joke:
