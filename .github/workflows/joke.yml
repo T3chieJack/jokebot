@@ -2,8 +2,9 @@
 name: Daily Discord Joke
 on:
   schedule:
-    - cron: "0 8 * * *"   # 08:00 UTC ≈ 9am London during BST
-  workflow_dispatch: {}    # manual trigger
+    - cron: "30 9 * * *"
+  workflow_dispatch: {}
+    # manual trigger
 jobs:
   send-joke:
     runs-on: ubuntu-latest
